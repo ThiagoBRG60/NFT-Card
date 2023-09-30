@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+  background-color: rgb(13, 26, 45);
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.block {
+    background-color: rgb(21,39,63);
+    width: 420px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 1px 25px 0 15px rgb(12,23,41), 1px 28px 0 55px rgb(12,25,44);
+}
+
+.block img {
+    width: 350px;
+    border-radius: 15px;
+    margin: 30px 0 0 35px;
+}
+
+#titulo {
+    color: white;
+    font-family: outfit;
+    font-size: 26px;
+    margin: 10px 0 0 35px;
+    font-weight: 600;
+}
+
+#subtitulo {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(143,166,198);
+    margin: 15px 0 0 35px;
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 22px;
+    width: 85%;
+}
+
+.nft {
+    display: flex;
+    gap: 10px;
+}
+
+.relogio {
+    display: flex;   
+    font-weight: 400; 
+    gap: 10px;
+    margin: -8px;
+}
+
+#time {
+    margin: 27px 0 0 0;
+    font-family: outfit;
+    color: rgb(139,166,209);
+}
+
+.eth {
+    display: flex;
+    gap: 100px;
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    font-family: outfit;
+    font-weight: 600;
+    color: aqua;
+}
+
+.eth img {
+    width: 100px;
+}
+
+#clock {
+    color: white;
+}
+
+.nft img {
+    width: 14px;
+    height: 17px;
+}
+
+.line {
+    background-color: rgb(47,65,89);
+    height: 2px;
+    width: 86%;
+    margin: 5px 0 0 35px;
+}
+
+.photo {
+    display: flex;
+}
+
+#name {
+    margin: 38px 0 0 24px;
+    font-family: outfit;
+    color: rgb(114,137,171);
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0.17px 0.1px 0 1.1px white;
+}
